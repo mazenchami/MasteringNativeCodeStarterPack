@@ -309,11 +309,13 @@ Note: Keep in mind, the setting to run the auto-fix for the linter will also run
 
 **Xcode** will be used to build/run the iOS native side of the React Native application. It will also handle things like code-signing, asset management, simulators, and in some cases debugging.
 
-To install Xcode, head over to the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and download the latest available version (usually dependent on OS version). It's recommended to upgrade the OS to the latest in order to have the latest Xcode. But first, check with the team to see what everybody is on. As of 05-31-23, the recommended version is 14.3.
+To install Xcode, head over to the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and download the latest available version (usually dependent on OS version). It's recommended to upgrade the OS to the latest in order to have the latest Xcode. But first, check with the team to see what everybody is on. As of 06-25-24, the recommended version is 15.4.
+
+Once installed, open Xcode and accept the license agreement. This will install additional components needed for Xcode to run properly. Once that's done, make sure you're logged in to your developer Apple ID account. Xcode -> Settings... -> Accounts -> + (bottom left) -> Add Apple ID.
 
 #### Command Line Tools
 
-By this point, you have probably incidentally installed the command line tools while installing other items prior. To verify, open Xcode -> Preferences -> Locations -> Command Line Tools. Select the latest version if not already selected.
+By this point, you have probably incidentally installed the command line tools while installing other items prior. To verify, open Xcode -> Settings... -> Locations -> Command Line Tools. Select the latest version if not already selected.
 
 #### CocoaPods (optional)
 
