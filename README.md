@@ -20,19 +20,27 @@ Welcome to the Mastering Native Code Starter Pack! This repository is a setup te
 
 For the full instructions on how to setup your environment for React Native development, head on over to [Environment Setup](./docs/environment-setup-guide.md).
 
-1. Run the project setup script:
+1. Initialize the project:
 
 ```bash
-yarn setup
+cd ~/Dev
+npx react-native init advancedcontacts # "y" to all prompts
+cd advancedcontacts
 ```
 
-2. Start the metro bundler:
+2. Run the project setup script:
+
+```bash
+yarn
+```
+
+3. Start the metro bundler:
 
 ```bash
 yarn start
 ```
 
-3. Build in dev mode:
+4. Build in dev mode:
 
 - Android: by typing `a` in metro, or in a new shell instance:
 
@@ -46,7 +54,7 @@ yarn start
   yarn ios
   ```
 
-4. Build for your device:
+5. Build for your device:
 
 - [Android link](./docs/simulators-setup.md#yarn-android)
 - [iOS link](./docs/simulators-setup.md#launching-a-specific-simulator)
